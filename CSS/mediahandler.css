@@ -1,0 +1,362 @@
+@media screen and (max-width: 1150px) {
+
+    .nav-options {
+        display: none;
+    }
+
+    #hb-nav {
+        display: flex;
+    }
+
+}
+
+@media only screen and (min-width: 1875px) {
+    #fMessage {
+        position: absolute;
+        top: 3300px;
+    }
+
+    #fName {
+        position: absolute;
+        top: 3250px;
+    }
+
+    #fEmail {
+        position: absolute;
+        top: 3250px;
+        left: 25%;
+    }
+
+    .Findus-dropdown {
+        top: 90px;
+    }
+
+    .locationImageContainer {
+        top: 100px;
+    }
+
+    .locationImageContainer.clicked {
+        top: 110px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .sideBar-bg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .locationImageContainer {
+        display: none;
+    }
+
+    .contact-header {
+        position: relative;
+        top: 225px;
+        left: 27px;
+    }
+
+    .contact-header-underline {
+        position: relative;
+        top: 1px;
+        height: 100px;
+    }
+
+    #fName {
+        position: relative;
+        top: 130px;
+        left: 25px;
+    }
+
+    #fEmail {
+        position: relative;
+        top: 130px;
+        left: 30px;
+    }
+
+    #fMessage {
+        position: relative;
+        top: 140px;
+    }
+
+    .submitButt {
+        position: relative;
+        top: 175px;
+        left: -51.5%;
+    }
+
+    .Findus-Header {
+        position: relative;
+        left: 65%;
+        top: 147px;
+    }
+
+
+    .Findus-dropdown {
+        position: relative;
+        left: 65%;
+        top: -275px;
+
+
+        width: 30%;
+        overflow: hidden;
+    }
+
+    .Findus-dropdown.active {
+        height: 150px;
+        overflow: scroll;
+    }
+}
+
+@media only screen and (max-width: 1225px) {
+
+    .contact-header {
+        top: 220px;
+        left: 20px;
+    }
+
+    .Findus-Header {
+        top: 0px;
+    }
+
+    .coursesHeaderDiv {
+        position: relative;
+        margin-top: -400px;
+    }
+
+    .contact-container {
+        top: 500px;
+    }
+
+    .facility-header-border {
+        position: relative;
+        top: 420px;
+    }
+
+    .facility-info-div {
+        position: relative;
+        top: 425px;
+        left: 25px;
+
+        padding: 10px 10px;
+        height: auto;
+        width: 90%;
+    }
+
+    .facility-info-div-2 {
+        width: 90%;
+        height: 150px;
+
+        top: 430px
+    }
+
+    .facility-Images {
+        display: none;
+    }
+
+    .facility-drop-down-div {
+        position: relative;
+        top: 440px;
+        width: 60%;
+    }
+
+    .facility-drop-down-div.active {
+        width: 80%;
+        overflow: scroll;
+    }
+
+    .tester {
+        position: relative;
+        left: 25px;
+        top: 460px;
+
+        transition: top 0.6s ease 0.2s
+    }
+
+    .tester.active {
+        top: 460px;
+        left: 25px;
+    }
+
+    #fName {
+        top: 0px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #fName {
+        top: 900px;
+    }
+
+    #fEmail {
+        top: 900px;
+    }
+
+    #fMessage {
+        top: 900px;
+    }
+
+    .submitButt {
+        position: relative;
+        top: 930px;
+        left: -51%;
+    }
+
+    .contact-header-inline {
+        top: 900px;
+    }
+
+    .Findus-dropdown {
+        top: 500px;
+    }
+
+    .locationImageContainer {
+        top: 550px;
+    }
+
+    .locationImageContainer.clicked {
+        top: 522px;
+    }
+
+
+
+    .computingHeaderDiv {
+        position: relative;
+    }
+
+    .computingCoursesContainer fieldset {
+        width: 90%;
+    }
+
+    .computingCoursesContainer {
+        position: relative;
+        top: 930px;
+        width: 90%;
+        height: auto;
+        overflow: scroll;
+    }
+
+    .designHeaderDiv {
+        position: relative;
+        float: left;
+        top: 875px;
+        margin-top: 90px;
+        left: 25px;
+    }
+
+    .designCourseText {
+        position: relative;
+        top: -12px;
+    }
+
+    .designCourseContainer fieldset {
+        width: 90%;
+    }
+
+    .designCourseContainer {
+        position: relative;
+        left: 25px;
+        top: 900px;
+
+        margin-top: 25px;
+
+        height: auto;
+        width: 90%;
+        overflow: scroll;
+    }
+
+}
+
+@media only screen and (max-width:1050px) {
+    .info-border {
+        width: 80%;
+
+    }
+
+    .info-container {
+        width: 70%;
+    }
+
+    .moreAboutUsHeaderDiv {
+        position: relative;
+        top: 225px;
+        left: 25px;
+
+        width: 40%;
+    }
+
+    .moreInfoButtonsContainer {
+        position: relative;
+        top: 245px;
+        left: 5px;
+
+        width: 45%;
+    }
+
+    #fName {
+        top: 850px;
+    }
+
+    #fEmail {
+        top: 850px;
+    }
+
+    #fMessage {
+        top: 850px;
+    }
+
+    .Findus-Header {
+        top: 220px;
+        left: -140px;
+    }
+
+    .contact-header-inline {
+        top: 650px;
+        left: 0px;
+    }
+
+    .Findus-dropdown {
+        left: 63%;
+    }
+
+
+    .submitButt {
+        position: relative;
+        top: 880px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .aboutUsHeaderDiv {
+        position: relative;
+        top: -700px;
+        left: 35px;
+
+        width: 60%;
+    }
+
+    .aboutUsImage {
+        display: none;
+    }
+
+    .info-border {
+        position: relative;
+        top: 175px;
+        left: 25px;
+        width: 90%;
+        height: 500px;
+    }
+
+    .info-container {
+        position: relative;
+        left: 50px;
+        top: -325px;
+
+        width: 85%;
+    }
+
+    .moreAboutUsHeaderDiv {
+        margin-top: -350px;
+    }
+}

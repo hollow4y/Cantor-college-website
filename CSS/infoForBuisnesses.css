@@ -1,0 +1,406 @@
+body {
+    background-color: rgb(156,143,110);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 10px;
+}
+
+p {
+    color: rgb(238, 217, 217);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; 
+}
+
+
+
+h3 {
+    color: rgb(238, 217, 217);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; 
+}
+
+.introduction-inline {
+    position: relative;
+    top: 100px;
+
+    display: flex;
+    flex-direction: column;
+
+    height: fit-content;
+    border-radius: 20px;
+    background-color: rgb(80, 61, 12);
+    padding: 10px;
+}
+
+.services-header {
+    position: relative;
+    top: 125px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+
+    border-radius: 20px;
+    height: 40px;
+    width: 30%;
+    background-color: rgb(80, 61, 12);
+
+}
+
+.custom-training {
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(80, 61, 12);
+    
+    width: 450px;
+    height: 300px;
+}
+
+.research-and-development {
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(80, 61, 12);
+    
+    width: 450px;
+    height: 300px;
+}
+
+.design-and-technology {
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(80, 61, 12);
+    
+    width: 450px;
+    height: 300px;
+}
+
+
+.row-one {
+    position: relative;
+    top: 150px;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.internship-graduate-recruitment {
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(80, 61, 12);
+    
+    width: 450px;
+    height: 300px;
+
+}
+
+.event-hosting {
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(80, 61, 12);
+    
+    width: 450px;
+    height: 300px;
+}
+
+.row-two {
+    position: relative;
+    top: 160px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.why-us {
+    position: relative;
+    top: 220px;
+    padding: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(80, 61, 12);
+    
+    width: 95%;
+    height: fit-content;
+}
+
+.drop-down-container-one {
+    overflow: hidden;
+    height: 50px;
+    width: fit-content;
+}
+
+.DD1Info {
+    position: relative;
+    left: 40px;
+    padding-right: 50px;
+}
+
+.expertise-drop-down {
+    position: relative;
+    left: 20px;
+}
+
+.expertise-drop-down:hover {
+    text-decoration: underline;
+}
+
+.drop-down-container-one.active {
+    height: fit-content;
+    width: 85%;
+}
+
+.drop-down-container-two {
+    overflow: hidden;
+    height: 50px;
+    width: 300px;
+}
+
+.drop-down-container-two.active {
+    height: fit-content;
+    width: 85%;
+}
+
+.innovation-drop-down {
+    position: relative;
+    left: 20px;
+}
+
+.innovation-drop-down:hover {
+    text-decoration: underline;
+}
+
+.DD2Info {
+    padding-right: 50px;
+    position: relative;
+    left: 40px;
+}
+
+.drop-down-container-three {
+    overflow: hidden;
+    height: 50px;
+    width: 330px;
+}
+
+.drop-down-container-three.active {
+    height: fit-content;
+    width: 85%;
+}
+
+.tailored-solutions-drop-down {
+    position: relative;
+    left: 20px;
+}
+
+.tailored-solutions-drop-down:hover {
+    text-decoration: underline;
+}
+
+.DD3Info {
+    padding-right: 50px;
+    position: relative;
+    left: 40px;
+}
+
+.drop-down-container-four {
+    overflow: hidden;
+    height: 50px;
+    width: 330px;
+}
+
+.drop-down-container-four.active {
+    height: fit-content;
+    width: 85%;
+}
+
+.future-ready-talent-drop-down {
+    position: relative;
+    left: 20px;
+}
+
+.future-ready-talent-drop-down:hover {
+    text-decoration: underline;
+}
+
+.DD4Info {
+    padding-right: 50px;
+    position: relative;
+    left: 40px;
+}
+
+
+.extend-all-button {
+    position:sticky;
+    left: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(226, 209, 200);
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+
+#fEmail {
+    padding: 2px 10px;
+    position: relative;
+    top: 300px;
+    border-width: 2px;
+    border-color: rgb(80, 61, 12);
+    width: 23%;
+    height: 40px;
+    border-radius: 20px;
+
+}
+
+#fName {
+    margin-left: -200px;
+    padding: 2px 10px;
+    position: relative;
+    top: 300px;
+    border-width: 2px;
+    border-color: rgb(80, 61, 12);
+
+    width: 22%;
+    height: 40px;
+    border-radius: 20px;
+
+}
+
+#fMessage {
+    resize: none;
+    padding: 16px 16px;
+    position: relative;
+    font-size: 12pt;
+    top: 310px;
+    border-color: rgb(80, 61, 12);
+    border-width: 2px;
+
+    border-radius: 20px;
+    width: 70%;
+    height: 300px;
+}
+
+.submitButt {
+    position:relative;
+    top: 690px;
+    left: 0px;
+
+    
+    height: 35px;
+    width: 200px;
+
+    background-color: rgb(207, 207, 207);
+    border: none;
+    border-radius: 20px;
+
+    transition: background-color 0.6s ease 0s, text-decoration 0.6s ease 0s;
+}
+
+.submitButt:hover {
+    background-color: rgb(210, 210, 20);
+    text-decoration: underline 1px; 
+}
+
+.contact-us-header {
+    position: relative;
+    top: 285px;
+    padding-left: 12px;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 20px;
+    height: 40px;
+    width: 30%;
+    background-color: rgb(80, 61, 12);
+}
+
+.contact-us-info {
+    position: relative;
+    top: 290px;
+    padding-left: 12px;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(80, 61, 12);
+}
+
+.topBar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    width:100%;
+    height: 80px;
+
+    background-color: rgb(80, 61, 12);
+
+    display: flex;
+    align-items: center;
+}
+
+.topBar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+
+    background-color: rgb(248, 200, 200);
+
+    position: fixed;
+    left: 20px;
+    color: black;
+
+    transition: background-color 0.3s ease 0s;
+}
+
+.topBar a:hover {
+    background-color: rgb(150, 121, 105);
+}
+
+@media screen and (max-width: 1200px) {
+
+    .row-one {
+        flex-direction: column;
+    }
+    .row-one div{
+        margin-bottom: 20px;
+        width: 90%;
+        height: fit-content;
+    }
+
+    .row-two {
+        flex-direction: column;
+    }
+    .row-two div{
+        margin-bottom: 20px;
+        width: 90%;
+        height: fit-content;
+    }
+
+}
+
+

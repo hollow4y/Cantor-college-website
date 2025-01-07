@@ -1,0 +1,636 @@
+body {
+    padding: 10px;
+    background-color: rgb(156,143,110);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.extend-all-button {
+    position:sticky;
+    left: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(226, 209, 200);
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+p {
+    color: rgb(238, 217, 217);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; 
+}
+
+h3 {
+    color: rgb(238, 217, 217);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+
+.topBar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    width:100%;
+    height: 80px;
+
+    background-color: rgb(80, 61, 12);
+
+    display: flex;
+    align-items: center;
+}
+
+.topBar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+
+    background-color: rgb(248, 200, 200);
+
+    position: fixed;
+    left: 20px;
+    color: black;
+
+    transition: background-color 0.3s ease 0s;
+}
+
+.topBar a:hover {
+    background-color: rgb(150, 121, 105);
+}
+
+.info-container {
+    position: relative;
+    top: 75px;
+
+    padding: 2px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(80, 61, 12);
+
+    width: 50%;
+}
+
+.info-container-2 {
+    position: relative;
+    top: 100px;
+
+    padding: 2px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(80, 61, 12);
+
+    width: 50%
+}
+
+.welcometosheff {
+    position: absolute;
+    top: 95px;
+    left: 52%;
+}
+
+.collegeShot {
+    position: absolute;
+    left: 52%;
+    top: 1000px;
+
+    border-radius: 20px;
+
+    height: 350px;
+    width: 672px;
+}
+
+.Guidlines-header {
+    position: relative;
+    top: 200px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+
+    
+
+    border-radius: 20px;
+    height: 40px;
+    width: 30%;
+    background-color: rgb(80, 61, 12);
+
+}
+
+.introduction-header {
+    position: relative;
+    top: 220px;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+
+    border-radius: 20px;
+    height: 40px;
+    width: 30%;
+    background-color: rgb(80, 61, 12);
+}
+
+.introduction-info-container {
+    margin-bottom: 20px;
+    padding: 2px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(80, 61, 12);
+
+    width: 50%;
+}
+
+.Notice-info-container {
+    padding: 2px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(80, 61, 12);
+
+    width: 45%;
+}
+
+.Rules-header {
+    position: relative;
+    top: 350px;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+
+    border-radius: 20px;
+    height: 40px;
+    width: 30%;
+    background-color: rgb(80, 61, 12);
+}
+
+.Acess-rules-header {
+    position: relative;
+    top: 360px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+
+    border-radius: 20px;
+    height: 40px;
+    width: 30%;
+    background-color: rgb(80, 61, 12);
+
+}
+
+.Access-rules-container {
+    margin-bottom: 20px;
+    margin-right: 75px;
+
+    padding: 2px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(80, 61, 12);
+    
+    width: 50%
+}
+
+.use-rules-header {
+    position: relative;
+    top: 320px;
+    left: 55%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+
+    border-radius: 20px;
+    height: 40px;
+    width: 30%;
+    background-color: rgb(80, 61, 12);
+}
+
+.use-rules-container {
+    padding: 2px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(80, 61, 12);
+
+    width: 45%;
+}
+
+.Rule-set {
+    position: relative;
+    top: 335px;
+    justify-content: space-between;
+    display: flex;
+
+    height: fit-content;
+}
+
+.introduction-inline {
+    position: relative;
+    justify-content: space-between;
+    top: 235px;
+
+    display: flex;
+
+    height: auto;
+}
+
+.our-courses {
+    position: relative;
+    top: 350px;
+    padding: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(80, 61, 12);
+    
+    width: 95%;
+    height: fit-content;
+}
+
+.drop-down-container-one {
+    overflow: hidden;
+    height: 50px;
+    width: fit-content;
+}
+
+.drop-down-container-one.active {
+    height: fit-content;
+    width: 85%;
+}
+
+.drop-down-container-one p {
+    position: relative;
+    left: 40px;
+    padding-right: 50px;
+}
+
+.computing-drop-down {
+    position: relative;
+    left: 20px;
+}
+
+.computing-drop-down:hover {
+    text-decoration: underline;
+}
+
+.drop-down-container-two {
+    overflow: hidden;
+    height: 50px;
+    width: fit-content;
+}
+
+.drop-down-container-two.active {
+    height: fit-content;
+    width: 85%;
+}
+
+.drop-down-container-two p {
+    position: relative;
+    left: 40px;
+    padding-right: 50px;
+}
+
+.computer-networks-drop-down {
+    position: relative;
+    left: 20px;
+}
+
+.computer-networks-drop-down:hover {
+    text-decoration: underline;
+}
+
+.drop-down-container-three {
+    overflow: hidden;
+    height: 50px;
+    width: fit-content;
+}
+
+.drop-down-container-three.active {
+    height: fit-content;
+    width: 85%;
+}
+
+.drop-down-container-three p {
+    position: relative;
+    left: 40px;
+    padding-right: 50px;
+}
+
+.cyber-security-drop-down {
+    position: relative;
+    left: 20px;
+}
+
+.cyber-security-drop-down:hover {
+    text-decoration: underline;
+}
+
+.drop-down-container-four {
+    overflow: hidden;
+    height: 50px;
+    width: fit-content;
+}
+
+.drop-down-container-four.active {
+    height: fit-content;
+    width: 85%;
+}
+
+.drop-down-container-four p {
+    position: relative;
+    left: 40px;
+    padding-right: 50px;
+}
+
+.computer-science-for-games-drop-down {
+    position: relative;
+    left: 20px;
+}
+
+.computer-science-for-games-drop-down:hover {
+    text-decoration: underline;
+}
+
+.drop-down-container-five {
+    overflow: hidden;
+    height: 50px;
+    width: fit-content;
+}
+
+.drop-down-container-five.active {
+    height: fit-content;
+    width: 85%;
+}
+
+.drop-down-container-five p {
+    position: relative;
+    left: 40px;
+    padding-right: 50px;
+}
+
+.software-engineering-drop-down {
+    position: relative;
+    left: 20px;
+}
+
+.software-engineering-drop-down:hover {
+    text-decoration: underline;
+}
+
+.drop-down-container-six {
+    overflow: hidden;
+    height: 50px;
+    width: fit-content;
+}
+
+.drop-down-container-six.active {
+    height: fit-content;
+    width: 85%;
+}
+
+.drop-down-container-six p {
+    position: relative;
+    left: 40px;
+    padding-right: 50px;
+}
+
+.computer-science-drop-down {
+    position: relative;
+    left: 20px;
+}
+
+.computer-science-drop-down:hover {
+    text-decoration: underline;
+}
+
+.drop-down-container-seven {
+    overflow: hidden;
+    height: 50px;
+    width: fit-content;
+}
+
+.drop-down-container-seven.active {
+    height: fit-content;
+    width: 85%;
+}
+
+.drop-down-container-seven p {
+    position: relative;
+    left: 40px;
+    padding-right: 50px;
+}
+
+.information-technology-drop-down {
+    position: relative;
+    left: 20px;
+}
+
+.information-technology-drop-down:hover {
+    text-decoration: underline;
+}
+
+.drop-down-container-eight {
+    overflow: hidden;
+    height: 50px;
+    width: fit-content;
+}
+
+.drop-down-container-eight.active {
+    height: fit-content;
+    width: 85%;
+}
+
+.drop-down-container-eight p {
+    position: relative;
+    left: 40px;
+    padding-right: 50px;
+}
+
+.buisness-and-digital-drop-down {
+    position: relative;
+    left: 20px;
+}
+
+.buisness-and-digital-drop-down:hover {
+    text-decoration: underline;
+}
+
+.drop-down-container-nine {
+    overflow: hidden;
+    height: 50px;
+    width: fit-content;
+}
+
+.drop-down-container-nine.active {
+    height: fit-content;
+    width: 85%;
+}
+
+.drop-down-container-nine p {
+    position: relative;
+    left: 40px;
+    padding-right: 50px;
+}
+
+.computing-and-informatics-drop-down {
+    position: relative;
+    left: 20px;
+}
+.computing-and-informatics-drop-down:hover {
+    text-decoration: underline;
+}
+
+.drop-down-container-ten {
+    overflow: hidden;
+    height: 50px;
+    width: fit-content;
+}
+
+.drop-down-container-ten.active {
+    height: fit-content;
+    width: 85%;
+}
+
+.drop-down-container-ten p {
+    position: relative;
+    left: 40px;
+    padding-right: 50px;
+}
+
+.int-arc-drop-down {
+    position: relative;
+    left: 20px;
+}
+.int-arc-drop-down:hover {
+    text-decoration: underline;
+}
+
+.drop-down-container-eleven {
+    overflow: hidden;
+    height: 50px;
+    width: fit-content;
+}
+
+.drop-down-container-eleven.active {
+    height: fit-content;
+    width: 85%;
+}
+
+.drop-down-container-eleven p {
+    position: relative;
+    left: 40px;
+    padding-right: 50px;
+}
+
+.jewellery-course-drop-down {
+    position: relative;
+    left: 20px;
+}
+
+.jewellery-course-drop-down:hover {
+    text-decoration: underline;
+}
+
+
+
+@media only screen and (max-width:1410px) {
+
+    .welcometosheff {
+        left: 10px;
+        height: 500px;  
+    }
+
+    .collegeShot {
+        display: none;
+    }
+
+    .info-container {
+        top: 76px;
+        left: 400px;
+        width: 65%
+    }
+
+    .info-container-2 {
+        left: 400px;
+        width: 65%;
+
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width:1160px) {
+
+    .info-container {
+        left:10px;
+        top: 100px;
+        width: 90%;
+    }
+
+    .info-container-2 {
+        top:125px;
+        left: 10px;
+
+        width: 90%;
+    }
+
+    .welcometosheff {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:900px) {
+
+    .Rule-set {
+        flex-direction: column;
+    }
+    
+    .introduction-inline {
+        flex-direction: column;
+    }
+
+
+    .Access-rules-container {
+        width: 90%;
+        margin-bottom: 70px;
+    }
+
+    .use-rules-container {
+        width: 90%;
+    }
+
+    .Acess-rules-header {
+        position: relative;
+        top: 360px;
+    }
+
+    .use-rules-header {
+        position: relative;
+        top:810px;
+        left: 0px;
+    }
+
+    .introduction-info-container {
+        width: 90%;
+    }
+
+    .Notice-info-container {
+        width: 90%;
+
+    }
+}
+
+
+
